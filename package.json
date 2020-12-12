@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple json database",
   "main": "server.js",
+  "engines": {
+    "node": "15.2.0"
+  },
   "scripts": {
     "start": "node server.js"
   },
