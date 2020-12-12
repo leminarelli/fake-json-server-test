@@ -119,6 +119,6 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
 
 server.use(router);
 
-server.listen(process.env.port||3000, () => {
+server.listen(process.env.PORT || 3000, () => {
   console.log('Run Auth API Server on port 3000');
 });
